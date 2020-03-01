@@ -4,7 +4,7 @@
 
     <form action="/articles/<%= @article.id %>" method="POST">
     <input id="hidden" type="hidden" name="_method" value="patch">
-
+     
     <label>Title: 
     <input type="text" name="title" value= "<%= @article.title %>" >
     </label>
@@ -12,7 +12,7 @@
     <input type="text" name="content" value= "<%= @article.content %>" >
     </label>
 
-    <input type="submit" value="submit"
+    <input type="submit" value="edit">
     </form>
 
     </body>
